@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILMES</title>
+    <script src="teste.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="all">
+
+        <div class="dadosLogin" id="dadosLogin">
+
+            <h1>Busca Filmes</h1>
+
+            <div class="insert">
+                <div class="instrucao">
+                    <p>Usuário:</p>
+                </div>
+                <input class="inputs" id="login" placeholder="Usuário" onchange="preencherLogin(event)">
+                <div class="instrucao">
+                    <p>Senha:</p>
+                </div>
+                <input class="inputs" id="senha" placeholder="Senha" type="password" onchange="preencherSenha(event)">
+                <button class="botao1" onclick=loginPress() id="login-button">Login</button>
+            </div>
+
+
+
+        </div>
+
+        <div id="dadosBusca" class="hide">
+
+            <div id="search-container">
+                <input class="inputs" id="search" placeholder="Escreva...">
+                <button class="botao2" onclick=searchPress() id="search-button">Pesquisar Filmes</button>
+            </div>
+
+            <div id="listBox">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+    background-color: #454d6b;
+
+}
+
+.all {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h1{
+    color: #fff;
+
+    font-size: 25px;
+
+    opacity: 0.8;
+}
+
+.dadosLogin {
+
+    padding-bottom: 50px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+}
+
+#search-container {
+    display: flex;
+
+    justify-content: center; 
+
+    align-items: center;
+
+    flex-direction: column;
+
+    background-color: rgba(19, 19, 19, 0.3);
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width:280px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin: none;
+    padding: 30px;
+    border: none;
+    background-color: rgb(85, 85, 158);
+    color: #fff;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+#dadosLogin {
+    display: flex;
+
+    justify-content: center; 
+
+    align-items: center;
+
+    flex-direction: column;
+
+    background-color: rgba(19, 19, 19, 0.3);
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width:280px;
+}
+
+.insert label {
+
+    color: #fff;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+}
+
+.instrucao {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.inputs input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #e1e1e1;
+
+    outline: none;
+
+    color: #fff;
+
+}
+
+.botao1 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 100%;
+
+    height: 30px;
+
+    background-color: #a13854;
+
+    border:none;
+
+    color:#e1e1e1;
+
+    margin: 10px 0;
+
+}
+
+.botao1 a {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
+
+.botao2 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 100%;
+
+    height: 30px;
+
+    background-color: #a13854;
+
+    border:none;
+
+    color:#e1e1e1;
+
+    margin: 10px 0;
+
+}
+
+.botao2 a {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
